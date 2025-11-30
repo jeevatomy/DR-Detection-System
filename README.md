@@ -4,6 +4,21 @@
 
 ### ✨ Fastest Way to Run
 
+### 📥 First Time: Download Models
+
+If this is your first time, download the pre-trained models:
+
+```powershell
+python download_models.py
+```
+
+This downloads:
+- `fusion_dr_model.keras` (277.8 MB) - Primary model
+- `fusion_dr_model.h5` (276.8 MB) - Backup weights
+- Models stored via Git LFS for efficient storage
+
+**See `MODELS.md` for detailed information.**
+
 **Double-click one of these:**
 - 🟦 **Windows Batch:** `START_SYSTEM.bat`
 - 🟦 **PowerShell:** `START_SYSTEM.ps1` (Right-click → Run with PowerShell)

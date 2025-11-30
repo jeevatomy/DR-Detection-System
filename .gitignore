@@ -50,10 +50,6 @@ yarn-error.log
 # React build
 frontend/build/
 
-# Model files (too large, store separately)
-*.h5
-*.keras
-*.onnx
 
 # Data
 data/train_images/
